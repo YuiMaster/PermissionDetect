@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-files-path
+        name="file_download"
+        path="Download" />
+    <external-path
+        name="external_files"
+        path="." />
+
+
+    <files-path
+        name="file_path"
+        path="." /><!-- 对应 Context.getFilesDir() 的路径地址 -->
+    <cache-path
+        name="cache_file"
+        path="." /><!-- 对应 getCacheDir() 获取的路径 -->
+    <external-path
+        name="external_file"
+        path="." /><!-- 对应 Environment.getExternalStorageDirectory()的路径地址 -->
+    <external-files-path
+        name="external_file_path"
+        path="." /><!-- 对应Context#getExternalFilesDir(String) Context.getExternalFilesDir(null) 返回的路径地址 -->
+    <external-cache-path
+        name="external_cache_file_path"
+        path="." /><!-- 对应 Context.getExternalCacheDir() 返回的地址 -->
+</paths>
